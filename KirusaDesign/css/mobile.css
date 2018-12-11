@@ -1,0 +1,139 @@
+@media screen and (max-width: 568px) {
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* ------------------------Header padrt----------------------- */
+.header{
+  width:100%;
+  background-color:none;
+}
+.logo{
+  float:left;
+  width:30%;
+}
+.prob{
+  display:none;
+  float:right;
+}
+.prob ul li{
+  list-style-type:none;
+  display:inline;
+  font-size:8px;
+  float:left;
+  border-right:1px solid black;
+  padding-left:3px;
+  padding-right:3px;
+
+}
+.prob ul li:nth-child(3) {
+  border-right:none;
+}
+.search{
+  float:left;
+  width:68%;
+  margin-top:2px;
+}
+.dropdown{
+  width:50%;
+}
+.search-btn{
+  width:50%;
+}
+.search-bar{
+  width:100%;
+  background-color:white;
+  float:left;
+  max-height:20px;
+}
+.options{
+  float:right;
+  width:30%;
+}
+.options li{
+  list-style-type:none;
+  border-right:1px solid black;
+  vertical-align: middle;
+  float:left;
+  margin-left:11%;
+  padding-right:11%;
+}
+.options li:nth-child(2){
+  border:none
+}
+#toggle {
+    display: none;
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: inline;
+    width: 10%;
+    float: left;
+}
+
+  .hammenu {
+      text-align: left;
+      width: 100%;
+      display: none;
+      font-size:10px;
+
+  }
+  .hammenu a {
+      line-height:20px;
+      display: block;
+      margin-top:2px;
+      border-bottom: 1px solid #EAEAEB;
+      margin: 0px;
+      text-decoration:none;
+      margin-left:30%;
+  }
+  .hammenu a:hover{
+    text-decoration:underline;
+    color:red;
+    font-size:20px;
+  }
+    #toggle:checked + .hammenu {
+        display: block;
+    }
+
+    .images-3{
+      margin-top:0px;
+    }
+    .watch{
+      min-height:253px;
+      float:left;
+      width:74%;
+      margin-left:12%;
+      position:relative;
+      margin-top:20px;
+    }
+     .shoes{
+     min-height:253px;
+     float:left;
+     width:74%;
+     margin-left:12%;
+     position:relative;
+      margin-top:20px;
+    }
+
+    .camera{
+      min-height:253px;
+      float:left;
+      width:74%;
+      margin-left:12%;
+      position:relative;
+      margin-top:20px;
+    }
+    .lr{
+      display:none;
+    }
+    .catalog{
+      display:none;
+
+    }
+}

@@ -1,0 +1,259 @@
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1108px;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.header {
+  width: 100%;
+  margin-top: 25px;
+}
+.logo {
+  float: left;
+  width: 11.552346%;
+  margin-top: 22.5px;
+}
+.prob {
+  float: right;
+}
+.prob ul li {
+  line-height: 1.2;
+  font-family: Montserrat;
+  list-style-type: none;
+  display: inline;
+  font-size: 10px;
+  /* float: left; */
+  border-right: 1px solid black;
+  margin-left: 15px;
+  padding-right: 13px;
+  text-align: center;
+}
+.prob ul li:nth-child(3) {
+  border-right: none;
+  text-decoration: none;
+  padding-right: 0px;
+}
+.prob ul li a {
+  text-decoration: none;
+}
+
+.search {
+  float: left;
+  width: 72.111913%;
+  background-color: green;
+  margin-top: 8px;
+  margin-left: 3.158844%;
+  line-height: 36px;
+}
+.search-bar {
+  width: 61.875%;
+  background-color: white;
+  font-size: 17.6px;
+  float: left;
+  min-height: 36px;
+  background-color: #f5f5f5;
+}
+.dropdown {
+  width: 23%;
+  min-height: 40px;
+  /* padding-bottom:4px; */
+  float: left;
+  font-size: 17px;
+  background-color: #edecec;
+}
+.search-btn {
+  width: 14.623%;
+  float: right;
+  min-height: 40px;
+  /* background-color: #34414a; */
+  background-image: url(../images/search.png) no-repeat;
+}
+.options {
+  float: right;
+  width: 13.176895%;
+  margin-top: 10px;
+  line-height: 36px;
+}
+.options li {
+  list-style-type: none;
+  border-right: 1px solid black;
+  vertical-align: middle;
+  float: left;
+  padding-top: 4px;
+}
+.options li a {
+  margin-left: 28px;
+  padding-right: 21px;
+}
+.cartimage {
+  background: url('../images/cart3.png');
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.manimage {
+  background: url('../images/cart2.png');
+}
+.options li:nth-child(2) {
+  border: none;
+}
+#toggle {
+  display: none;
+}
+.toggle {
+  display: none;
+}
+.hammenu {
+  float: left;
+  margin-left: 3.33935%;
+  font-family: Montserrat;
+  line-height: 46px;
+  font-size: 14px;
+}
+.hammenu a:hover {
+  color: red;
+}
+.hammenu a {
+  margin-right: 36px;
+  color: black;
+  text-decoration: none;
+}
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: left;
+}
+
+/* ________________________________body3_____________________ */
+
+.images-3 {
+  margin-top: 25px;
+}
+.watch {
+  background: url('../images/watch.png') no-repeat;
+  min-height: 253px;
+  float: left;
+  width: 33.333333%;
+  position: relative;
+}
+.shoes {
+  background: url('../images/shoes.png') no-repeat;
+  min-height: 253px;
+  float: left;
+  width: 33.333333%;
+  position: relative;
+}
+
+.camera {
+  background: url('../images/camera.png') no-repeat;
+  min-height: 253px;
+  float: left;
+  width: 33.333333%;
+  position: relative;
+}
+.pro {
+  font-family: Montserrat;
+  font-size: 7px;
+  position: absolute;
+  top: 224px;
+  left: 27px;
+}
+.pro span {
+  margin-right: 28px;
+  color: white;
+}
+/* __________________________HEADING__________________________ */
+
+.heading {
+  line-height: 109px;
+  text-align: center;
+}
+.heading span a {
+  font-size: 47px;
+  font-family: Montserrat;
+  color: black;
+  text-decoration: none;
+  margin-left: 3.7906137%;
+}
+.heading span img {
+  float: right;
+  margin-top: 40px;
+}
+/* __________________________sales__________________________ */
+.salez {
+  margin-top: 8px;
+  text-align: center;
+}
+.salez li {
+  width: 16.60649%;
+  list-style-type: none;
+  float: left;
+}
+.salez li:hover {
+  border: 1px solid lightblue;
+}
+.price {
+  line-height: 30px;
+  font-family: Montserrat;
+  font-size: 12px;
+  color: blue;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.desc {
+  font-size: 10px;
+  font-family: Montserrat;
+  float: left;
+  margin-right: 20%;
+  margin-left: 20%;
+  line-height: 12px;
+  text-align: center;
+}
+.last-row {
+  float: left;
+  margin-top: 98px;
+  width: 100%;
+}
+.last-row li {
+  list-style-type: none;
+}
+.allz {
+  float: left;
+  width: 15.026833%;
+  margin-right: 1.610017%;
+  text-align: center;
+}
+.allz :hover {
+  border: 1px solid lightblue;
+}
+.allz1 {
+  float: left;
+  width: 15.026833%;
+  margin-right: 1.610017%;
+}
+.t17 {
+  font-size: 22px;
+  font-family: Montserrat;
+  padding-top: 5px;
+}
+.lr {
+  float: left;
+  margin-top: 20px;
+}
+.catalog {
+  float: left;
+  font-size: 14px;
+  margin-top: 32px;
+}
+.aaa {
+  line-height: 36px;
+  font-size: 14px;
+  font-family: Montserrat;
+}
